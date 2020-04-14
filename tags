@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddRecipeIdToIngredients	db/migrate/20160114135651_add_recipe_id_to_ingredients.rb	/^class AddRecipeIdToIngredients < ActiveRecord::Migration[4.2]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:BasicNestedFormsLab
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BasicNestedFormsLab	config/application.rb	/^module BasicNestedFormsLab$/;"	m
+CreateIngredients	db/migrate/20160113001515_create_ingredients.rb	/^class CreateIngredients < ActiveRecord::Migration[4.2]$/;"	c
+CreateRecipes	db/migrate/20160113001505_create_recipes.rb	/^class CreateRecipes < ActiveRecord::Migration[4.2]$/;"	c
+Ingredient	app/models/ingredient.rb	/^class Ingredient < ActiveRecord::Base$/;"	c
+Recipe	app/models/recipe.rb	/^class Recipe < ActiveRecord::Base$/;"	c
+RecipesController	app/controllers/recipes_controller.rb	/^class RecipesController < ApplicationController$/;"	c
+RecipesHelper	app/helpers/recipes_helper.rb	/^module RecipesHelper$/;"	m
+change	db/migrate/20160113001505_create_recipes.rb	/^  def change$/;"	f	class:CreateRecipes
+change	db/migrate/20160113001515_create_ingredients.rb	/^  def change$/;"	f	class:CreateIngredients
+change	db/migrate/20160114135651_add_recipe_id_to_ingredients.rb	/^  def change$/;"	f	class:AddRecipeIdToIngredients
+create	app/controllers/recipes_controller.rb	/^  def create$/;"	f	class:RecipesController
+index	app/controllers/recipes_controller.rb	/^  def index$/;"	f	class:RecipesController
+new	app/controllers/recipes_controller.rb	/^  def new$/;"	f	class:RecipesController
+show	app/controllers/recipes_controller.rb	/^  def show$/;"	f	class:RecipesController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
